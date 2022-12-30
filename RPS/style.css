@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+ 
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  height: 100vh;
+   background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+}
+.logo {
+  height: 70px;
+  padding-top: 30px;
+}
+.playground {
+  display: flex;
+  justify-content: space-evenly;
+  height: 450px;
+  /* background-color: black; */
+}
+.opponentBlock {
+  height: 200px;
+  width: 400px;
+  border-radius: 30px;
+  /* background-color: yellow; */
+  margin: auto;
+}
+.playerBlock {
+  margin: auto;
+  height: 200px;
+  width: 400px;
+  border-radius: 30px;
+  /* background-color: green; */
+}
+
+.choices-box {
+    text-align: center;
+    padding-bottom: 30px;
+  /* background-color: cyan; */
+}
+img {
+  height: 30vh;
+  padding-top: 50px;
+}
+#choices img{
+    height: 150px;
+}
+.winner{
+    background-color: red ;
+}
